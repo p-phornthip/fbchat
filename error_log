@@ -1,0 +1,62 @@
+[01-Nov-2013 14:44:28 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/updateba/public_html/nishgtm.com/message/message.php on line 8
+[01-Nov-2013 14:44:42 America/Chicago] PHP Fatal error:  Call to a member function getAppId() on a non-object in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 7
+[01-Nov-2013 14:45:43 America/Chicago] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 8
+[01-Nov-2013 14:47:44 America/Chicago] PHP Fatal error:  Call to a member function getAppId() on a non-object in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 7
+[01-Nov-2013 14:48:27 America/Chicago] PHP Fatal error:  Call to a member function getAppId() on a non-object in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 7
+[01-Nov-2013 14:48:30 America/Chicago] PHP Fatal error:  Call to a member function getAppId() on a non-object in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 7
+[01-Nov-2013 14:49:14 America/Chicago] PHP Fatal error:  Call to undefined function connect() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 25
+[01-Nov-2013 14:49:46 America/Chicago] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 25
+[01-Nov-2013 14:51:03 America/Chicago] PHP Fatal error:  Call to undefined function connect() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 25
+[01-Nov-2013 14:58:39 America/Chicago] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 25
+[01-Nov-2013 14:58:39 America/Chicago] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :5222 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 25
+[01-Nov-2013 14:58:39 America/Chicago] PHP Fatal error:  Call to undefined function put_file_contents() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 32
+[01-Nov-2013 15:01:23 America/Chicago] PHP Warning:  Missing argument 2 for SendMessage::sendMessage(), called in /home/updateba/public_html/nishgtm.com/message/message.php on line 10 and defined in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 52
+[01-Nov-2013 15:01:23 America/Chicago] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 15:02:18 America/Chicago] PHP Fatal error:  Call to undefined function send_xml() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 57
+[01-Nov-2013 15:04:05 America/Chicago] PHP Fatal error:  Call to undefined function send_xml() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 61
+[01-Nov-2013 15:07:49 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, null given in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 50
+[01-Nov-2013 15:07:49 America/Chicago] PHP Fatal error:  Call to undefined function find_xmpp() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 62
+[01-Nov-2013 15:08:58 America/Chicago] PHP Fatal error:  Call to undefined function find_xmpp() in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 63
+[01-Nov-2013 15:14:39 America/Chicago] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 112
+[01-Nov-2013 15:19:14 America/Chicago] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/updateba/public_html/nishgtm.com/message/send.message.php:1) in /home/updateba/public_html/nishgtm.com/message/facebook.php on line 49
+[01-Nov-2013 16:04:34 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 190
+[01-Nov-2013 16:10:19 America/Chicago] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /home/updateba/public_html/nishgtm.com/message/send.message.php on line 115
+[01-Nov-2013 16:23:17 America/Chicago] PHP Fatal error:  Uncaught OAuthException: (#803) Some of the aliases you requested do not exist: "nootan.ghimire"
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 16:24:44 America/Chicago] PHP Fatal error:  Uncaught OAuthException: (#803) Some of the aliases you requested do not exist: "nootan.ghimire"
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 16:53:20 America/Chicago] OAuthException: Error validating access token: User 100004178433492 has not authorized application 476503632381870.
+[01-Nov-2013 17:00:26 America/Chicago] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 599
+[01-Nov-2013 17:00:54 America/Chicago] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 599
+[01-Nov-2013 17:00:57 America/Chicago] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 599
+[01-Nov-2013 17:02:28 America/Chicago] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 599
+[01-Nov-2013 17:03:54 America/Chicago] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 599
+[01-Nov-2013 17:03:57 America/Chicago] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 599
+[01-Nov-2013 17:05:02 America/Chicago] CSRF state token does not match one provided.
+[01-Nov-2013 17:05:48 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 17:06:51 America/Chicago] CSRF state token does not match one provided.
+[01-Nov-2013 17:09:31 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 17:10:42 America/Chicago] CSRF state token does not match one provided.
+[01-Nov-2013 17:10:44 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 17:12:18 America/Chicago] CSRF state token does not match one provided.
+[01-Nov-2013 17:12:20 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/updateba/public_html/nishgtm.com/message/base_facebook.php on line 1264
+[01-Nov-2013 17:13:43 America/Chicago] OAuthException: Error validating access token: User 100004178433492 has not authorized application 476503632381870.
+[01-Nov-2013 22:37:00 America/Chicago] CSRF state token does not match one provided.
+[01-Nov-2013 22:37:06 America/Chicago] CSRF state token does not match one provided.
+[01-Nov-2013 22:39:34 America/Chicago] CSRF state token does not match one provided.
+[02-Nov-2013 08:24:28 America/Chicago] CSRF state token does not match one provided.
+[02-Nov-2013 09:03:12 America/Chicago] CSRF state token does not match one provided.
+[14-Nov-2013 15:23:32] CSRF state token does not match one provided.
+[14-Nov-2013 15:23:40] CSRF state token does not match one provided.
+[14-Nov-2013 15:48:43] PHP Parse error:  syntax error, unexpected T_IF in /home/updateba/public_html/nishgtm.com/message/send.php on line 5
+[14-Nov-2013 15:49:12] PHP Fatal error:  Cannot use [] for reading in /home/updateba/public_html/nishgtm.com/message/send.php on line 5
+[14-Nov-2013 15:50:12] PHP Fatal error:  Cannot use [] for reading in /home/updateba/public_html/nishgtm.com/message/send.php on line 5
+[14-Nov-2013 15:55:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/updateba/public_html/nishgtm.com/message/index.php:17) in /home/updateba/public_html/nishgtm.com/message/index.php on line 18
+[14-Nov-2013 16:04:12] CSRF state token does not match one provided.
+[14-Nov-2013 16:09:25] CSRF state token does not match one provided.
+[14-Nov-2013 16:09:29] CSRF state token does not match one provided.
