@@ -6,15 +6,25 @@ Awesome fb messaging api using php
 usage:
 ```php
 <?php
-require_once('facebook.message.php'); //requires file
+require_once('send.message.php'); //requires file
 require_once('facebook.php'); //sdk provided by facebook, you need one for tokens and
 //all
-$facebook=new Facebook('appId' => 'your_app_id','secret' => 'your_app_secret');
-$message=new SendMessage($facebook);
+$config = array('appId' => '1496661733888719' ,'secret'=>'0c959ab2dec71c5a53aab1cd64751223' );
+$facebook=new Facebook($config);
+if(!$facebook->getUser()){
+	$params = array(
+  'scope' => 'read_mailbox, xmpp_login',
+  'redirect_uri' => 'http://localhost/'
+	);
+	$url=$facebook->getLoginUrl($params);
+	header("location:".$url);
+	die();
+}
+$messageobj=new SendMessage($facebook);
 
 $receiverId=''; // this may either be username or userID, this class takes care of both the //cases
-$message='test message';
-if($message->sendMessage($body,$receiverId))
+$body='test message';
+if($messageobj->sendMessage($body,$receiverId))
 {
 echo 'message sent';
 }else
@@ -23,4 +33,5 @@ echo 'some error occured';
 }
 ?>
 ```
+You need to pass the proper $facebook object which is the instance of Facebook class with permission of xmpp_login
 Remember, if the code doesn't do in case of your host, you need call your hosting provider, tell him to unblock outbound connections. and specify that you are messing around with facebook chat api or else they may not accept your request.
