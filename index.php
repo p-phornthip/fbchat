@@ -1,7 +1,7 @@
 <?php
 require_once('send.message.php'); //requires file
 require_once('facebook.php'); //sdk provided by facebook, you need one for tokens and
-$config = array('appId' => '1496661733888719' ,'secret'=>'3c3ad56149c2d7cd91aaf0db42305cc9' );
+$config = array('appId' => '1496661733888719' ,'secret'=>'' );//////////////////////////your application secret
 $facebook=new Facebook($config);
 if(!$facebook->getUser()){
     $params = array(
@@ -14,7 +14,7 @@ if(!$facebook->getUser()){
 }
 $messageobj=new SendMessage($facebook);
 
-$receiverId='nootan.ghimire'; // this may either be username or userID, this class takes care of both the //cases
+$receiverId=''; // this may either be username or userID, this class takes care of both the
 $body='test message';
 if($messageobj->sendMessage($body,$receiverId))
 {
