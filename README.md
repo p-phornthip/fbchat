@@ -34,4 +34,4 @@ echo 'some error occured';
 ?>
 ```
 You need to pass the proper $facebook object which is the instance of Facebook class with permission of xmpp_login<br />
-Remember, if the code doesn't do in case of your host, you need call your hosting provider, tell him to unblock outbound connections. and specify that you are messing around with facebook chat api or else they may not accept your request.
+Remember, if the code doesn't work in case of your host, you need call your hosting provider, tell him to unblock outbound connection on port 22. and specify that you are messing around with facebook chat api or else they may not accept your request.
