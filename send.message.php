@@ -16,6 +16,7 @@ class SendMessage
      */
     public function __construct( $Facebook )
     {
+        //initialize everything we need, from facebook to xml's
         $this->Facebook     = $Facebook;
         $this->appId        = $Facebook->getAppId();
         $this->uid          = $Facebook->getUser();
@@ -52,6 +53,7 @@ class SendMessage
      */
     private function GetAccessToken()
     {
+        //get access token from facebook object passed by user
         $facebook    = $this->Facebook;
         $AccessToken = $facebook->getAccessToken();
         return $AccessToken;
@@ -105,6 +107,7 @@ class SendMessage
      */
     private function find_xmpp( $fp, $tag, $value = null, &$ret = null )
     {
+        //function provided by facebook, DON'T ATTEMPT to change
         static $val = null, $index = null;
         
         do {
