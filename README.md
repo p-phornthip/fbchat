@@ -1,4 +1,4 @@
-fbchat
+fbchat (Might be absolute soon, please have patience, I'll be working on this repository this January.)
 ======
 
 Awesome fb messaging api using php
