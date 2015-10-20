@@ -1,6 +1,9 @@
 fbchat (Might be absolute soon, please have patience, I'll be working on this repository this January.)
 ======
 
+### This project no longer works as facebook has shut it's chat api down, please don't refer this code anymore. There is no way one can send messages from outside of facebook anymore.
+
+
 Awesome fb messaging api using php
 
 usage:
