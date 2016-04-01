@@ -1,4 +1,4 @@
-fbchat (Facebook has pulled chat API for public use for some reason, as there's no chat API, this repo can't work. Please let me know if there's a way to send message using some API directly on people's Inbox, not from JavaScript, using any server side JavaScript)
+fbchat
 ======
 
 ### This project no longer works as facebook has shut it's chat api down, please don't refer this code anymore. There is no way one can send messages from outside of facebook anymore.
